@@ -1,5 +1,5 @@
 //RTE base64 API Access key
-char api_key[] = "XXXXXXXXXXXXXXXXXXXXXXXXXX";
+char api_key[] = "XXXXXXXtrgetrgXXXXXXXXXXX";
 
 
 // Wifi credentials

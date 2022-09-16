@@ -8,8 +8,6 @@
 #define HEADER_SIZE 200
 
 
-
-
 /****** LED *****/
 
 #include <Adafruit_NeoPixel.h>
@@ -33,6 +31,7 @@ byte colorsMap[4][3] =  // 4 niveaux possibles, couleur RGB
 #include <ArduinoJson.h>
 
 int previsions[4][24] = {0};
+
 
 void setup() {
 
