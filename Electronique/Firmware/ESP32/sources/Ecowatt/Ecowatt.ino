@@ -9,14 +9,21 @@
 
 
 /****** LED *****/
-
+/*
 #include <Adafruit_NeoPixel.h>
 
-#define PIN        15
-#define NUMPIXELS  24
-Adafruit_NeoPixel  pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ400);
 
-byte colorsMap[4][3] =  // 4 niveaux possibles, couleur RGB
+Adafruit_NeoPixel  pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ400);*/
+
+#include <FastLED.h>
+
+#define PIN_PIXEL      15
+#define NUMPIXELS  25
+
+CRGBArray<NUMPIXELS> leds;
+
+
+int colorsMap[4][3] =  // 4 niveaux possibles, couleur RGB
 {
   { 0, 50,  0}, // 0 = vert
   { 0,  0, 50}, // 1 = bleu

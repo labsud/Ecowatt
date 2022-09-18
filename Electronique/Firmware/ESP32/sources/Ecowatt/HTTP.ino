@@ -1,4 +1,3 @@
-
 int getAccessToken(char apiKey[], char url[], char token[])
 {
 
